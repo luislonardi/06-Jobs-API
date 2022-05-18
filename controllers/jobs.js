@@ -14,7 +14,7 @@ const createJob= async (req,res)=>{
     req.body.createdBy=req.user.userId
     console.log(req.body)
     console.log(req.user)
-    // const job=await job.create(req.body)
+    const job=await job.create(req.body)
     
 }
 
